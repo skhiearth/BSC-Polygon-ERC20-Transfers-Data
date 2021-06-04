@@ -57,16 +57,4 @@ for txn in JSON_DATA:
                         continue
         else:
             continue
-            
-
-# # Converting JSON data to CSV
-# EVODEFIBRDIGE = open('./evodefi.csv', 'w')
-# csv_writer = csv.writer(EVODEFIBRDIGE)
-
-# count = 0
-# for transaction in JSON_DATA:
-#     if count == 0:
-#         header = transaction.keys()
-#         csv_writer.writerow(header)
-#         count += 1
-#     csv_writer.writerow(transaction.values())
+        
