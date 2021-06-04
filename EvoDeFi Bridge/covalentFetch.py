@@ -11,7 +11,7 @@ with open('Data/evoDeFiPolygon.csv', 'w', newline='') as file:
 URL = "https://api.covalenthq.com/v1"
 ID = "137"
 CONTRACT_ADDRESS = "0xBCA17c85F7E965ae6f5D05769D300e59221CF1e2"
-PAGE_SIZE = "100000"
+PAGE_SIZE = "1000000000"
 API_KEY="ckey_10446544a51944ffa7c6603a9e4"
 PRIMER = "{\"$match\":{\"decoded.name\":\"Transfer\"}}"
 
